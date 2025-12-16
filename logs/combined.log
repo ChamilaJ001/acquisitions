@@ -1,0 +1,24 @@
+{"level":"info","message":"Hello from the server","service":"acquisitions-api","timestamp":"2025-11-17T17:14:35.381Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:14:35 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:14:35.449Z"}
+{"level":"info","message":"Hello from the server","service":"acquisitions-api","timestamp":"2025-11-17T17:26:57.170Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:26:57 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:26:57.202Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:01 +0000] \"GET /api/ HTTP/1.1\" 200 28 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:01.092Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:01 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:01.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:10 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:10.416Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:10.551Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:28 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:28.432Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Nov/2025:17:27:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api","timestamp":"2025-11-17T17:27:28.548Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:14:59:11 +0000] \"POST /api/auth/sign-in-response HTTP/1.1\" 404 165 \"-\" \"PostmanRuntime/7.44.1\"","service":"acquisitions-api","timestamp":"2025-11-18T14:59:11.390Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:14:59:32 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.44.1\"","service":"acquisitions-api","timestamp":"2025-11-18T14:59:32.579Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:15:00:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.44.1\"","service":"acquisitions-api","timestamp":"2025-11-18T15:00:35.673Z"}
+{"level":"info","message":"User registered successfully: chamila@gmail.com","service":"acquisitions-api","timestamp":"2025-11-18T15:03:04.055Z"}
+{"level":"info","message":"::1 - - [18/Nov/2025:15:03:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"PostmanRuntime/7.44.1\"","service":"acquisitions-api","timestamp":"2025-11-18T15:03:04.058Z"}
+{"level":"info","message":"User created successfully: john@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:07:03.161Z"}
+{"level":"info","message":"User registered successfully: john@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:07:03.192Z"}
+{"level":"info","message":"::1 - - [16/Dec/2025:07:07:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 111 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-16T07:07:03.214Z"}
+{"level":"info","message":"User created successfully: mike@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:07:25.592Z"}
+{"level":"info","message":"User registered successfully: mike@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:07:25.595Z"}
+{"level":"info","message":"::1 - - [16/Dec/2025:07:07:25 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 111 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-16T07:07:25.598Z"}
+{"level":"info","message":"User authenticated successfully: john@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:26:21.021Z"}
+{"level":"info","message":"User logged in successfully: john@gmail.com","service":"acquisitions-api","timestamp":"2025-12-16T07:26:21.046Z"}
+{"level":"info","message":"::1 - - [16/Dec/2025:07:26:21 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 110 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api","timestamp":"2025-12-16T07:26:21.068Z"}
