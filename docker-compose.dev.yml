@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  neon-local:
+    image: neondatabase/neon_local:latest
+    container_name: neon-local-proxy
+    ports:
+      - '5432:5432'
+    env_file:
+      - .env.development
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: acquisitions-app-dev
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env.development
+    depends_on:
+      neon-local:
+        condition: service_healthy
+    volumes:
+      # Mount source code for development (optional - remove for production-like testing)
+      - ./src:/app/src:ro
+      - ./logs:/app/logs
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
